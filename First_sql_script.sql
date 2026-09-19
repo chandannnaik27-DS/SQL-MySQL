@@ -10,6 +10,7 @@ CREATE TABLE users (
     email VARCHAR(100) UNIQUE NOT NULL,
     gender ENUM('Male','Female','Other'),
 	date_of_birth DATE,
+    salary INT,
     created_at TIMESTAMP default CURRENT_TIMESTAMP
     );
 SELECT * FROM users;
