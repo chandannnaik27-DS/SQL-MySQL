@@ -8,8 +8,7 @@ INSERT INTO users VALUES
 
 -- with column name  (multiple rows at once )
 INSERT INTO users
-(name, email, gender, date_of_birth, salary)
-VALUES
+(name, email, gender, date_of_birth, salary)VALUES
 ('Chadan', 'chandan3@gmail.com', 'Male', '2007-08-27', 28000),
 ('Shiv', 'shiv03@gmail.com', 'Male', '2007-08-25', 32000),
 ('Mark', 'markera05@gmail.com', 'Male', '2005-03-11', 45000),

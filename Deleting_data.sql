@@ -8,4 +8,7 @@ SELECT * FROM users ;
 
 DELETE FROM users 
 WHERE salary IS NULL;
-SELECT * FROM users
+SELECT * FROM users;
+
+use startersql;
+drop table users ;
